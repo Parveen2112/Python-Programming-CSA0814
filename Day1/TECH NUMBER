@@ -1,0 +1,13 @@
+def is_tech_number(num):
+    num_str = str(num)
+    sum_digits = sum(int(digit) for digit in num_str)
+    product_digits = 1
+    for digit in num_str:
+        if int(digit) != 0:
+            product_digits *= int(digit)
+    if sum_digits * product_digits == num:
+        return True
+    else:
+        return False
+INPUT:3025
+OUTPUT:TRUE
