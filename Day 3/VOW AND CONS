@@ -1,0 +1,13 @@
+def count_vowels_and_consonants(input_string):
+    vowels = "aeiou"
+    input_string = input_string.lower()
+    vowel_count = sum(1 for char in input_string if char in vowels)
+    consonant_count = sum(1 for char in input_string if char.isalpha() and char not in vowels)
+    return vowel_count, consonant_count
+input_string = "Hello, World!"
+vowel_count, consonant_count = count_vowels_and_consonants(input_string)
+print(f"Number of vowels: {vowel_count}")
+print(f"Number of consonants: {consonant_count}")
+
+OUTPUT:Number of vowels: 3
+       Number of consonants: 7
