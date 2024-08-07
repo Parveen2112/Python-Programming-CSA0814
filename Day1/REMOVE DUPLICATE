@@ -1,0 +1,4 @@
+List_1=[1,2,3,4,5,3]
+      Print(list(set(list_1)))
+OUTPUT:
+[1,2,3,4,5]
