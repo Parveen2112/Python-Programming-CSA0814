@@ -1,0 +1,15 @@
+Sum=0
+  While True
+     a=i
+      if a==-1
+        break
+        sum=sum+a
+        avg=sum/2
+    print(sum)
+    print(avg) 
+INPUT:56,78,-98,-4,8,-1
+OUTPUT:
+Sum of positive numbers: 142.0
+Average of positive numbers: 47.333333333333336
+Sum of negative numbers: -102.0
+Average of negative numbers: -51.0
