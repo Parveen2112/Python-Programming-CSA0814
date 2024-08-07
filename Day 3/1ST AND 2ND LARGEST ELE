@@ -1,0 +1,5 @@
+n=[1,7,6,9,2,5,4]
+print(max(n))
+second_max=sorted(set(n))[-2]
+print(second_max)
+OUTPUT:9,7
