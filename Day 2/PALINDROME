@@ -1,0 +1,4 @@
+num=121
+is_palindrome=str(num)==str(num)[::-1]
+print("palindrome"if is_palindrome else"not a palindrome")
+OUTPUT:Palindrome
