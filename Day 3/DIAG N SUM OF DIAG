@@ -1,0 +1,14 @@
+def print_diagonal_and_calculate_sum(matrix):
+    diagonal_sum = 0
+    for i in range(len(matrix)):
+        print(matrix[i][i])
+        diagonal_sum += matrix[i][i]    
+    print("Sum of diagonal elements:", diagonal_sum)
+matrix = [[1, 2, 3],
+          [4, 5, 6],
+          [7, 8, 9]]
+print_diagonal_and_calculate_sum(matrix)
+
+OUTPUT:
+        Diagonal elements:1,5,9
+        sum of diagonal elements:15
