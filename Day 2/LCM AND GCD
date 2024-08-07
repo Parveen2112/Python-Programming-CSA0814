@@ -1,0 +1,9 @@
+import math
+a,b,c=4,6,8
+lcm=math.lcm(a,b,c)
+gcd=math.gcd(a,b,c)
+print(lcm)
+print(gcd)
+OUTPUT:
+     LCM=24
+     GCD=2
