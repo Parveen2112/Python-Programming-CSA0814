@@ -1,0 +1,10 @@
+from datetime import datetime
+date1 = datetime(2023,12,23)
+date2 = datetime(2025,7,20)
+date_diff = date2 - date1
+years = date_diff.days // 365
+months = (date_diff.days % 365) // 30
+days = (date_diff.days % 365) % 30
+print(f"Years: {years}, Months: {months}, Days: {days}")
+
+OUTPUT: Years: 1, Months: 7, Days: 0
