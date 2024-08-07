@@ -1,0 +1,6 @@
+arr=[1,2,3,4,5]
+print(max(arr))
+print(min(arr))
+
+OUTPUT:5
+       1
