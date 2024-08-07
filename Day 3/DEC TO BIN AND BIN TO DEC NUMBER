@@ -1,0 +1,9 @@
+decimal_num = 10
+binary_num = bin(decimal_num)[2:]
+print(f"Binary representation of {decimal_num} is: {binary_num}")
+binary_num = '1010'
+decimal_num = int(binary_num, 2)
+print(f"Decimal representation of {binary_num} is: {decimal_num}")
+
+ OUTPUT:Binary representation of 10 is: 1010
+Decimal representation of 1010 is: 10
