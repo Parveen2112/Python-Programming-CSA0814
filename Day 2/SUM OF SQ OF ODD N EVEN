@@ -1,0 +1,5 @@
+list=[1,2,3,4,5,6]
+sum_of_squares_odd = sum(x**2 for x in list if x % 2 != 0)
+sum_of_squares_even = sum(x**2 for x in list if x % 2 == 0)
+print("even",sum_of_squares_even,"odd",sum_of_squares_odd)
+OUTPUT:even=56,odd=35
