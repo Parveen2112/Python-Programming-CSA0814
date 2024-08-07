@@ -1,0 +1,8 @@
+from datetime import datetime
+date_input=input("Enter a date(YYYY-MM-DD):")
+date_obj=datetime.strptime(date_input,"%Y-%m-%d")
+day=date_obj.strftime("%A")
+print("The day is:",day)
+
+OUTPUT:Enter a date(YYYY-MM-DD):2025-07-20
+                     The day is: Sunday
