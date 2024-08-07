@@ -1,0 +1,16 @@
+sentence = "Hello, World! This is a Sample Sentence."
+uppercase_sentence = sentence.upper()
+lowercase_sentence = sentence.lower()
+words = sentence.split()
+num_words = len(words)
+words_starting_with_a = [word for word in words if word.lower().startswith('a')]
+num_words_starting_with_a = len(words_starting_with_a)
+print("Uppercase Sentence:", uppercase_sentence)
+print("Lowercase Sentence:", lowercase_sentence)
+print("Number of Words:", num_words)
+print("Words starting with 'a':", num_words_starting_with_a)
+OUTPUT:
+Uppercase Sentence: HELLO, WORLD! THIS IS A SAMPLE SENTENCE.
+Lowercase Sentence: hello, world! this is a sample sentence.
+Number of Words: 7
+Words starting with 'a': 1
