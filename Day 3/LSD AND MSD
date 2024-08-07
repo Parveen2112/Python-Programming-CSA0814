@@ -1,0 +1,9 @@
+num=345657
+least_significant_digit = num % 10
+while num >= 10:
+    num //= 10
+most_significant_digit = num
+print("Least significant digit:",least_significant_digit)
+print("Most significant digit:",most_significant_digit)
+OUTPUT:Least significant digit: 7
+      Most significant digit: 3
