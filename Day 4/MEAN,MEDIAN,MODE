@@ -1,0 +1,12 @@
+from statistics import mean,median,mode
+data=[1,2,3,4,5,5,6,6,6,7,8,9]
+mean=mean(data)
+median=median(data)
+mode=mode(data)
+print("Mean:",mean)
+print("Median:",median)
+print("Mode:",mode)
+
+OUTPUT:Mean:5.16
+       Median:5.5
+       Mode:6
