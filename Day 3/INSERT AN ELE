@@ -1,0 +1,7 @@
+arr=[8,9,7,6]
+index=3
+element=15
+arr.insert(index,element)
+print(arr)
+
+OUTPUT:[8, 9, 7, 15, 6]
