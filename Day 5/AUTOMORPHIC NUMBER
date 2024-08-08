@@ -1,0 +1,9 @@
+num = int(input("Enter a number: "))
+square = num ** 2
+if str(square).endswith(str(num)):
+    print(f"{num} is an Automorphic Number.")
+else:
+    print(f"{num} is not an Automorphic Number.")
+
+OUTPUT:Enter a number: 6
+       6 is an Automorphic Number.
