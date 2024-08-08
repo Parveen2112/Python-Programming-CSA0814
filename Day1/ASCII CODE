@@ -1,4 +1,4 @@
-For i in range(ord(“A”),ord(“Z”)+o1):
+For i in range(ord(“A”),ord(“Z”)+1):
 Print(f”{chr(i)}-{i}”)
 OUTPUT:
 A: 65
