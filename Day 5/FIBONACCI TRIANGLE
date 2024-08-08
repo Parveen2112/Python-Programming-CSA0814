@@ -1,0 +1,17 @@
+def generate_fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        yield a
+        a, b = b, a + b
+def fibonacci_triangle(rows):
+    for i in range(rows):
+        print(" ".join(str(num) for num in generate_fibonacci(i)))
+rows = 7
+fibonacci_triangle(rows)
+
+OUTPUT:0
+       0 1
+       0 1 1
+       0 1 1 2
+       0 1 1 2 3
+       0 1 1 2 3 5
