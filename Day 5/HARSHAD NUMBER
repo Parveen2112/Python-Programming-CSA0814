@@ -1,0 +1,6 @@
+num = 18
+sum_of_digits = sum(int(digit) for digit in str(num))
+is_harshad = num % sum_of_digits == 0
+print(is_harshad)
+
+OUTPUT:True
