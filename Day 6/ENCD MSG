@@ -1,0 +1,7 @@
+message = "hello"
+shift = 2
+encoded_message = ''.join(chr((ord(char) - 97 + shift) % 26 + 97) if char.isalpha() else char for char in message)
+print(encoded_message)
+
+OUTPUT:jgnnq
+
