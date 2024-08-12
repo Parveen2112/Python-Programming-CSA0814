@@ -1,0 +1,9 @@
+import string
+def missing_letters(s):
+    alphabet=set(string.ascii_lowercase)
+    return alphabet-set(s.lower())
+s="The quick brown fox jumps over the dog"
+missing=missing_letters(s)
+print("Missing letters to form a pangram:",sorted(missing))
+
+OUTPUT:Missing letters to form a pangram: ['a', 'l', 'y', 'z']
