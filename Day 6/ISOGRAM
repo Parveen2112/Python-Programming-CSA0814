@@ -1,0 +1,5 @@
+s="uncopyrightable"
+is_isogram=len(s)==len(set(s.replace(" ","").lower()))
+print(is_isogram)
+
+OUTPUT:True
