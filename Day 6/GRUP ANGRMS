@@ -1,0 +1,6 @@
+import itertools
+words=['abc','face','goo','cab','cafe']
+group_anagrams=[list(group) for key,group in itertools.groupby(sorted(words,key=sorted),sorted)]
+print(group_anagrams)
+
+OUTPUT:[['abc', 'cab'], ['face', 'cafe'], ['goo']]
