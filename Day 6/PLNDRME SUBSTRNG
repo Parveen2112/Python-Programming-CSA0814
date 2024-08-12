@@ -1,0 +1,10 @@
+input_string = "ababa"
+substrings = []
+for i in range(len(input_string)):
+    for j in range(i + 1, len(input_string) + 1):
+        substring = input_string[i:j]
+        if substring == substring[::-1]:
+            substrings.append(substring)
+print(set(substrings))
+
+OUTPUT:{'ababa', 'bab', 'b', 'aba', 'a'}
