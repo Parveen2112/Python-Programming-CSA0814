@@ -1,0 +1,8 @@
+from itertools import permutations
+n=[2,3,4,5,6,7]
+target_number=int(input("Enter a number:"))
+pair_of_elements=[pair for pair in permutations(n,2)if sum(pair)==target_number]
+print(pair_of_elements)
+
+ OUTPUT:Enter a number:6
+        [(2, 4), (4, 2)]
