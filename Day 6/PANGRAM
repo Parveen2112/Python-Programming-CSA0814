@@ -1,0 +1,7 @@
+import string
+s="The quick brown fox jumps over the lazy dog"
+s=s.lower()
+is_pangram=all(letter in s for letter in string.ascii_lowercase)
+print(is_pangram)
+
+OUTPUT:True
