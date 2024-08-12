@@ -1,0 +1,8 @@
+str1="LISTEN"
+str2="SILENT"
+if sorted(str1)==sorted(str2):
+    print("The strings are anagrams")
+else:
+    print("The strings are not anagrams")    
+
+OUTPUT:The strings are anagrams
