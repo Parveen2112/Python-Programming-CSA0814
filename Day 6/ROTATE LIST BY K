@@ -1,0 +1,8 @@
+def rotate_list(arr,k):
+    return arr[-k:]+arr[:-k]
+arr=[1,2,3,4,5]
+k=3
+rotated_list=rotate_list(arr,k)
+print(rotated_list)
+
+OUTPUT:[3, 4, 5, 1, 2]
