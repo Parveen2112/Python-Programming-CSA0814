@@ -1,0 +1,17 @@
+nums = [5, 7, 7, 8, 8, 10]
+target = 8
+start = -1
+end = -1
+for i in range(len(nums)):
+    if nums[i] == target:
+        start = i
+        break
+for i in range(len(nums) - 1, -1, -1):
+    if nums[i] == target:
+        end = i
+        break
+print("Starting position:", start)
+print("Ending position:", end)
+
+OUTPUT:Starting position: 3
+       Ending position: 4
