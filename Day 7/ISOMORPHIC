@@ -1,0 +1,6 @@
+str1 = "egg"
+str2 = "add"
+is_isomorphic = len(set(zip(str1, str2))) == len(set(str1)) == len(set(str2))
+print("Isomorphic" if is_isomorphic else "Not Isomorphic")
+
+OUTPPUT:Isomorphic
