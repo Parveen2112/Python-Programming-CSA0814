@@ -1,0 +1,10 @@
+input_data = []
+while True:
+    user_input = input("Enter a letter or number (or '*' to stop): ")
+    if user_input == '*':
+        break
+    input_data.append(user_input)
+
+print("You entered:", input_data)
+
+OUTPUT:You entered: ['F@n1', 'r@N2']
